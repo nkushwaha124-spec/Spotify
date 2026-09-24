@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container-fluid bg-black">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-black d-flex" style="position: fixed;z-index: 11;width: 100%;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="fa-brands fa-spotify" style="color: white;"></i>
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="fa-solid fa-house" style="color: white;"></i>
+              </a>
+            </li>
+            <form class="d-flex" role="search">
+              <input class="form-control" type="search" placeholder="What do you want to play" aria-label="Search" style="background-color: black;">
+              <button class="btn btn-dark" type="submit" style="color: white;"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: grey;">Premium Support Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">|</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: grey;">
+                <i class="fa-solid fa-download"></i>Install App
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: grey;">Sign up</a>
+            </li>
+            <li class="nav-item">
+              <button class="bg-light text-dark rounded-pill">Login</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+    <div class="row text-light bg-black">
+      <div class="col-lg-2 p-2 my-5" style="position: fixed;">
+        <div class="d-flex">
+          <h3>Your Library</h3>
+          <h3>&nbsp; &nbsp; </h3>
+          <h3><i class="fa-solid fa-plus"></i></h3>
+        </div>
+        <div class="bg-dark rounded mx-3 p-1">
+          <h5>Create Your First Playlist</h5>
+          <p>It's easy,we'll help you</p>
+          <button class="btn bg-light btn-rouned-pill" style="color: black;">Create Playlist</button>
+          <br />
+        </div>
+        <br />
+        <br />
+        <div class="bg-dark rounded mx-3 p-1 d-flex">
+          <h6 style="font-size: 10px;">Lets Find some podcast to follow</h6>
+        </div>
+        <br />
+        <br />
+        <div>
+          <p style="color: grey;font-size: 15px;">
+            Legal &nbsp; Safety & Privacy Policy &nbsp; Privacy Policy &nbsp; Cookies
+            &nbsp; AboutAds &nbsp; Accessibility
+          </p>
+          <br />
+          <br />
+          <button class="rounded-pill" style="border: 1px solid white;">
+            English
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-10 px-5" style="margin-left: 200px;">
+        <!-- Trending Start -->
+        <div class="row" style="margin-top: 60px;">
+          <h1>Trending songs</h1>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song13.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title"><audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop
+                    style="width: 180px;"></audio></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song14.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title">
+                  <audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop style="width: 180px;"></audio>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song10.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title">
+                  <audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop style="width: 180px;"></audio>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song16.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title">
+                  <audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop style="width: 180px;"></audio>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song21.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title">
+                  <audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop style="width: 180px;"></audio>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Artist Start -->
+        <div class="row">
+          <h1>Popular artists</h1>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/artist4.jpg" class="card-img-top img-fluid rounded-circle"
+                style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-light">Pritam</h5>
+                <span>Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/artist5.jpg" class="card-img-top img-fluid rounded-circle"
+                style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-light">Arijit Singh</h5>
+                <span>Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/artist1.jpg" class="card-img-top img-fluid rounded-circle"
+                style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-light">A.R.Rahman</h5>
+                <span>Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/artist2.jpg" class="card-img-top img-fluid rounded-circle"
+                style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-light">Sachin-Jigar</h5>
+                <span>Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/artist7.jpg" class="card-img-top img-fluid rounded-circle"
+                style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-light">Vishal-Shekhar</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Album Start -->
+        <div class="row">
+          <h1>Popular albums and singles</h1>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song11.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title">
+                  <audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop style="width: 180px;"></audio>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song18.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title">
+                  <audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop style="width: 180px;"></audio>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song1.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title">
+                  <audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop style="width: 180px;"></audio>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song20.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title">
+                  <audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop style="width: 180px;"></audio>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/song2.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <span class="card-title">
+                  <audio src="Goli_Rahul_Puthi_Swara_Verma.mp3" controls loop style="width: 180px;"></audio>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Radio Start -->
+        <div class="row">
+          <h1>Popular radio</h1>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/radio7.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/radio2.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/radio4.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/radio9.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/radio8.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Featured Charts Start -->
+        <div class="row">
+          <h1>Featured Charts</h1>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/top3.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/top4.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/top1.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/top2.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/viral1.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- India Best Start-->
+        <div class="row">
+          <h1>India's Best</h1>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/ibest1.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/ibest4.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/ibest5.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/ibest2.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 mx-3">
+            <div class="card" style="width: 200px;background-color: black;">
+              <img src="img/ibest3.jpg" class="card-img-top" style="height:200px; width: 200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-black">
+          <div class="row">
+            <div class="col-sm-2">
+              <h4 style="color: white;">Company</h4>
+              <p style="color:grey;">About</p>
+              <p style="color:grey;">Jobs</p>
+              <p style="color:grey;">For the record</p>
+            </div>
+            <div class="col-sm-2 ">
+              <h4 style="color: white;">Communities</h4>
+              <p style="color:grey;">For Artists</p>
+              <p style="color:grey;">Developers</p>
+              <p style="color:grey;">Advertising</p>
+              <p style="color:grey;">Investors</p>
+              <p style="color:grey;">Vendors</p>
+            </div>
+            <div class="col-sm-2 ">
+              <h4 style="color: white;">Useful Links</h4>
+              <p style="color:grey;">Support</p>
+              <p style="color:grey;">Free Mobile App</p>
+            </div>
+            <div class="col-sm-2 ">
+              <h4 style="color: white;">Spotify Plans</h4>
+              <p style="color:grey;">Premium Individuals</p>
+              <p style="color:grey;">Premium Duo</p>
+              <p style="color:grey;">Premium Family</p>
+              <p style="color:grey;">Premium Student</p>
+              <p style="color:grey;">Spotify Free</p>
+            </div>
+            <div class="col-sm-2  d-flex">
+              <div class="col-sm-4 text-center"><i class="fa-brands fa-instagram"></i></div>
+
+              <div class="col-sm-4 text-center"><i class="fa-brands fa-twitter"></i></div>
+
+              <div class="col-sm-4 text-center"><i class="fa-brands fa-facebook"></i></div>
+            </div>
+          </div>
+        </div>
+        <!-- footer end -->
+
+        <!-- footer extras -->
+        <div class="footerExtras bg-dark text-grey">
+          <span>©2025 Spotify AB</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
